@@ -1,0 +1,11 @@
+{
+    "/": {
+      "name": "home"
+    },
+    "/#projects": {
+      "name": "projects"
+    },
+    "/tech": {
+      "name": "tech stack"
+    }
+  }

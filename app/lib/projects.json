@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Discord Experiment Hub",
+    "link": "https://discord.gg/experiments",
+    "id": "discord-experiment-hub",
+    "role": "Owner",
+    "image": "/deh.png",
+    "description": "Hey, you there, welcome to Discord Experiment Hub, a place where you can discuss the technical side of Discord. Learn about the latest datamines, keep up to date with the latest news, and discuss experiments, betas and more!",
+    "dates": "2023 - Present"
+  },
+  {
+    "name": "PurGPT",
+    "link": "https://purgpt.xyz",
+    "id": "purgpt",
+    "role": "Co-Owner/Developper",
+    "image": "/purgpt.png",
+    "description": "Harness AIs from companies like OpenAI effortlessly, with services like embeddings, chat completions, image generation, audio transcription and so, so much more!",
+    "dates": "2023 - Present"
+  },
+  {
+    "name": "Toolbox.js",
+    "link": "https://github.com/Tolga1452/toolbox.js",
+    "id": "toolboxjs",
+    "role": "Owner",
+    "image": "/js.png",
+    "description": "A collection of useful functions for JavaScript & Typescript.",
+    "dates": "2023 - Present"
+  },
+  {
+    "name": "Logchu",
+    "link": "https://github.com/Tolga1452/logchu",
+    "id": "logchu",
+    "role": "Owner",
+    "image": "/logchu.png",
+    "description": "Very simple and cool logger for your Node.js projects. Supports JavaScript and TypeScript.",
+    "dates": "2023 - Present"
+  },
+  {
+    "name": "Discord.js Bot Template",
+    "link": "https://github.com/Tolga1452/discord.js-bot-template",
+    "id": "discordjs-bot-template",
+    "role": "Owner",
+    "image": "/djs-bot.png",
+    "description": "This is a template for a Discord bot. It is written in JavaScript and uses the discord.js library. It is designed to be easy to use and easy to modify.",
+    "dates": "2023 - Present"
+  }
+]

@@ -1,5 +1,3 @@
-const { get } = require('@vercel/edge-config');
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -17,13 +15,6 @@ const nextConfig = {
   },
   experimental: {
     serverActions: true,
-  },
-  redirects() {
-    try {
-      return get('redirects');
-    } catch {
-      return [];
-    }
   },
 };
 

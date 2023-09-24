@@ -1,6 +1,6 @@
 import Link from "next/link.js";
 import { Projects } from "../../components/projects.jsx";
-import projects from "../../lib/projects.json";
+import projects from "../../lib/projects.js/index.js";
 
 export default async function Page({params}) {
   const project = projects.find(item => item.id === params.id);

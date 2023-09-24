@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import ArrowIcon from "../icons/arrow.jsx";
-import projects from "../lib/projects.json";
+import projects from "../lib/projects.json"
 import Link from "next/link.js";
 
 export const Projects = ({ children }) => {

@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 import ArrowIcon from "../icons/arrow.jsx";
 import projects from "../lib/projects.json";
+import Link from "next/link.js";
 
 export const Projects = ({ children }) => {
   return (
     <div
-      id="projects"
       className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 my-8 flex flex-col space-y-4 w-full"
     >
       <motion.div
@@ -28,7 +28,7 @@ export const Projects = ({ children }) => {
       >
         {projects.map((project) => (
           <div key={project.id}>
-          <Project project={project} />
+            <Project project={project} />
           </div>
         ))}
       </motion.div>
@@ -49,7 +49,7 @@ export const Project = ({ project }) => {
       className="max-w-screen"
       key={project.id}
     >
-      <a
+      <Link
         href={`/projects/${project.id}`}
         className="group border border-neutral-200 dark:border-neutral-700 transition bg-neutral-50 dark:bg-neutral-800 hover:bg-neutral-700 rounded grid gap-2 grid-cols-12 grid-rows-1 px-3 py-4 w-full"
       >
@@ -72,7 +72,7 @@ export const Project = ({ project }) => {
         <div className="col-span-1 w-full h-full flex items-top justify-end text-neutral-700 dark:text-neutral-300">
           <ArrowIcon />
         </div>
-      </a>
+      </Link>
     </motion.div>
   );
 };

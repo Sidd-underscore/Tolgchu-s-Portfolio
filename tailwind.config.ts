@@ -4,7 +4,7 @@ import typography from '@tailwindcss/typography';
 export default {
   content: [
     './app/**/*.{ts,tsx,js,jsx}',
-    './components/**/*.{ts,tsx,js,jsx}',
+    './app/lib/**/*.json',
   ],
   theme: {
     extend: {

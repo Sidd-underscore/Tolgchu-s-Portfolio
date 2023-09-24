@@ -1,9 +1,8 @@
-"use client"
-
 import "./global.css";
 import clsx from "clsx";
 import { Inter } from "next/font/google";
 import Navbar from "./components/navbar.jsx"
+import Footer from "./components/footer.jsx"
 import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
@@ -46,6 +45,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           {children}
           <Analytics />
+          <Footer />
         </main>
       </body>
     </html>

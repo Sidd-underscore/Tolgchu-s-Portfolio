@@ -1,5 +1,9 @@
 import { Projects } from "../components/projects.jsx";
 
+export const metadata = {
+    title: 'Projects'
+}
+
 export default async function Page() {
   return (
     <section>

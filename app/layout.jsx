@@ -24,6 +24,7 @@ export const metadata = {
     siteName: "Tolgchu ✨",
     locale: "en-US",
     type: "website",
+    image: "/favicon.ico"
   },
   twitter: {
     title: "Tolgchu ✨",

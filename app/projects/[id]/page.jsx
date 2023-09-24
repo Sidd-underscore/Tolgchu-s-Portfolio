@@ -2,6 +2,19 @@ import Link from "next/link.js";
 import { Projects } from "../../components/projects.jsx";
 import projects from "../../lib/projects.json";
 
+export async function generateMetadata({ params }) {
+  const project = projects.find((item) => item.id === params.id);
+
+  return {
+    title: project?.name
+      ? project?.name + " - Projects"
+      : "404 Project Not Found - Projects",
+    description: project?.description 
+      ? project?.description
+      : "This project doesn't exist :("
+  };
+}
+
 export default async function Page({ params }) {
   const project = projects.find((item) => item.id === params.id);
 

@@ -12,7 +12,10 @@ export default function Navbar() {
 
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">
-      <div className="fixed top-8 left-[50%] [transform:translate(-50%,0)] flex justify-center">
+      <div className="z-40 w-screen h-32 bg-gradient-to-b from-zinc-950 to-transparent fixed top-0 left-0">
+
+      </div>
+      <div className="z-50 fixed top-8 left-[50%] [transform:translate(-50%,0)] flex justify-center">
         <LayoutGroup>
           <nav
             className="font-mono font-bold text-sm border border-neutral-700 leading-loose uppercase flex justify-center items-center relative px-4 pb-0 fade md:overflow-auto scroll-pr-6 md:relative bg-neutral-200 dark:bg-neutral-800/50 backdrop-blur-lg rounded-full w-fit"

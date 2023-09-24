@@ -6,7 +6,8 @@
     "role": "Owner",
     "image": "/deh.png",
     "description": "Hey, you there, welcome to Discord Experiment Hub, a place where you can discuss the technical side of Discord. Learn about the latest datamines, keep up to date with the latest news, and discuss experiments, betas and more!",
-    "dates": "2023 - Present"
+    "dates": "2023 - Present",
+    "gradient": "from-indigo-600 to-indigo-400"
   },
   {
     "name": "PurGPT",
@@ -15,7 +16,8 @@
     "role": "Co-Owner/Developper",
     "image": "/purgpt.png",
     "description": "Harness AIs from companies like OpenAI effortlessly, with services like embeddings, chat completions, image generation, audio transcription and so, so much more!",
-    "dates": "2023 - Present"
+    "dates": "2023 - Present",
+    "gradient": "from-purple-700 to-fuchsia-700"
   },
   {
     "name": "Toolbox.js",
@@ -24,7 +26,8 @@
     "role": "Owner",
     "image": "/js.png",
     "description": "A collection of useful functions for JavaScript & Typescript.",
-    "dates": "2023 - Present"
+    "dates": "2023 - Present",
+    "gradient": "from-amber-500 to-orange-300"
   },
   {
     "name": "Logchu",
@@ -32,8 +35,9 @@
     "id": "logchu",
     "role": "Owner",
     "image": "/logchu.png",
-    "description": "Very simple and cool logger for your Node.js projects. Supports JavaScript and TypeScript.",
-    "dates": "2023 - Present"
+    "description": "A very simple and cool logger for your Node.js projects. Supports JavaScript and TypeScript.",
+    "dates": "2023 - Present",
+    "gradient": "from-green-500 to-sky-600" 
   },
   {
     "name": "Discord.js Bot Template",
@@ -42,6 +46,7 @@
     "role": "Owner",
     "image": "/djs-bot.png",
     "description": "This is a template for a Discord bot. It is written in JavaScript and uses the discord.js library. It is designed to be easy to use and easy to modify.",
-    "dates": "2023 - Present"
+    "dates": "2023 - Present",
+    "gradient": "from-indigo-500 to-indigo-300"
   }
 ]

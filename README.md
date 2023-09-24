@@ -2,7 +2,7 @@
 
 [tolgchu.vercel.app](https://tolgchu.vercel.app)
 
-![Screenshot]()
+![Hero page screenshot](https://raw.githubusercontent.com/Sidd-underscore/tolgchu-redesign/main/public/screenshots/hero.png)
 
 ## Includes
 
@@ -12,3 +12,12 @@
 - And more!
 
 ## More Images
+
+### Nonexistant project page
+![Nonexistant project page screenshot](https://raw.githubusercontent.com/Sidd-underscore/tolgchu-redesign/main/public/screenshots/nonexistant-project.png)
+
+### Project page
+![Project page screenshot](https://raw.githubusercontent.com/Sidd-underscore/tolgchu-redesign/main/public/screenshots/project.png)
+
+### Project grid
+![Project grid screenshot](https://raw.githubusercontent.com/Sidd-underscore/tolgchu-redesign/main/public/screenshots/projects.png)

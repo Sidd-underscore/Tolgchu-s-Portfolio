@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { Projects } from "../../components/projects.jsx";
 import { useRouter } from "next/navigation";

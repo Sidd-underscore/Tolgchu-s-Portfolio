@@ -1,3 +1,5 @@
+"use client"
+
 import "./global.css";
 import clsx from "clsx";
 import { Inter } from "next/font/google";

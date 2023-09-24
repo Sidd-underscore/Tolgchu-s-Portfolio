@@ -8,12 +8,12 @@ export const socialLinks = [
     },
     {
         "name": "@discordexhub",
-        "link": "https://x.com/@discordexhub",
+        "link": "https://x.com/discordexphub",
         "icon": <Twitter />
     },
     {
         "name": "@tolgchu",
-        "link": "https://x.com/@tolgchu",
+        "link": "https://x.com/tolgchu",
         "icon": <Twitter />
     },
     {

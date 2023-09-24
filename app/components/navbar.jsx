@@ -6,7 +6,6 @@ import Link from "next/link"
 import { LayoutGroup, motion } from "framer-motion"
 import navItems from '../lib/navItems.json'
 
-
 export default function Navbar() {
   const pathname = usePathname()
 
@@ -20,8 +19,8 @@ export default function Navbar() {
             id="nav"
           >
             <div className="flex flex-row space-x-0">
-              {Object.entries(navItems).map(([path, { name }]) => {
-                const isActive = path === pathname
+              {Object.entries(navItems).map(([path, { name, alias }]) => {
+                const isActive = path === pathname || pathname.includes(alias)
                 return (
                   <Link
                     key={path}

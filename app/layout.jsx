@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={clsx(
-        "text-black bg-white dark:text-white dark:bg-[#111010]",
+        "text-black bg-white dark:text-white dark:bg-[#111010] ",
         inter.className
       )}
     >

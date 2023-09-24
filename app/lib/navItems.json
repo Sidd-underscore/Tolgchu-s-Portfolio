@@ -3,9 +3,7 @@
       "name": "home"
     },
     "/#projects": {
-      "name": "projects"
-    },
-    "/tech": {
-      "name": "tech stack"
+      "name": "projects",
+      "alias": "projects"
     }
   }

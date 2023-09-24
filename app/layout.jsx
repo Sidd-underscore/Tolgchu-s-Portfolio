@@ -1,8 +1,8 @@
 import "./global.css";
 import clsx from "clsx";
 import { Inter } from "next/font/google";
-import Navbar from "./components/navbar.jsx"
-import Footer from "./components/footer.jsx"
+import Navbar from "./components/navbar.jsx";
+import Footer from "./components/footer.jsx";
 import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://leerob.io"),
+  metadataBase: new URL("https://tolgchu.vercel.app"),
   title: {
     default: "Tolgchu ✨",
     template: "%s / Tolgchu ✨",
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
       <body className="antialiased lg:max-w-3xl flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2">
           <Navbar />
-          {children}
+          <div className="min-h-[calc(100vh_-_226px)]">{children}</div>
           <Analytics />
           <Footer />
         </main>

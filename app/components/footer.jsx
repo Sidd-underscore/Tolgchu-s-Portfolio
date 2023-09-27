@@ -13,10 +13,10 @@ function Social({ data }) {
 
 export default function Footer() {
   return (
-    <footer className="sitcky bottom-0 p-4 bg-white/5 border border-white/5 rounded-md mb-8 flex items-center justify-between">
+    <footer className="sitcky bottom-0 p-4 bg-gray-100 dark:bg-white/5 border border-white/5 rounded-md mb-8 flex items-center justify-between">
       <div className="grid grid-cols-1 grid-rows-2 md:block">
         <strong>Tolgchu</strong>
-        <a className="text-white/25 text-xs md:text-base md:ml-2" target="_blank" href="https://sidd.is-a.dev">Made by Sidd_</a>
+        <a className="text-gray-400 dark:text-white/25 text-xs md:text-base md:ml-2" target="_blank" href="https://sidd.is-a.dev">Made by Sidd_</a>
       </div>
       <div className="flex space-x-2">
         {socialLinks.map((social, index) => (

@@ -22,14 +22,14 @@ export default async function Page({ params }) {
     <section>
       <h1 className="font-bold relative text-2xl md:text-3xl mb-8 tracking-tighter py-4 w-fit">
         <div
-          className={`absolute top-0 left-0 w-[calc(100%_+_25px)] h-full bg-gradient-to-br blur-2xl
+          className={`absolute top-0 -left-2 w-[calc(100%_+_75px)] h-full bg-gradient-to-br blur-2xl
             ${
               project?.gradient != undefined
                 ? project?.gradient
                 : "from-red-600 to-red-600"
             }`}
         />
-        <span className="blur-none">
+        <span className="blur-none text-gray-700 dark:text-white">
           {project?.name || <code>404 Project Not Found</code>}
         </span>
       </h1>

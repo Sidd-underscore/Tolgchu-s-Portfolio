@@ -5,7 +5,7 @@ function Badge(props) {
     <a
       {...props}
       target="_blank"
-      className="bg-neutral-50 dark:bg-neutral-800 hover:shadow-lg hover:bg-neutral-700 transition rounded p-1 text-sm inline-flex items-end leading-4 text-neutral-900 dark:text-neutral-100"
+      className="bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition rounded p-1 text-sm inline-flex items-end leading-4 text-neutral-900 dark:text-neutral-100"
     />
   );
 }
@@ -13,13 +13,13 @@ function Badge(props) {
 export default async function Page() {
   return (
     <section>
-      <h1 className="font-bold relative text-2xl md:text-3xl mb-8 tracking-tighter py-4 w-fit">
-        <div className="absolute top-0 left-0 w-[calc(100%_+_25px)] h-full bg-gradient-to-br from-pink-500 to-indigo-400 blur-2xl" />
+      <h1 className="text-gray-700 dark:text-white font-bold relative text-2xl md:text-3xl mb-8 tracking-tighter py-4 w-fit">
+        <div className="absolute top-0 -left-[25px] w-[calc(100%_+_75px)] h-full bg-gradient-to-br from-pink-500 to-indigo-400 blur-2xl" />
         <span className="blur-none">Hey, I'm Tolgchu ✨</span>
       </h1>
 
       <div className="md:grid gap-6 grid-cols-2 grid-rows-1">
-        <p className="mb-6 md:mb-0 text-gray-200 leading-loose">
+        <p className="mb-6 md:mb-0 dark:text-gray-200 leading-loose">
           I'm a programmer cat interested in AI, who co-owns{" "}
           <Badge href="https://purgpt.xyz">
             <img

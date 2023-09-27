@@ -51,7 +51,7 @@ export const Project = ({ project }) => {
     >
       <Link
         href={`/projects/${project.id}`}
-        className="group border border-neutral-200 dark:border-neutral-700 transition bg-neutral-50 dark:bg-neutral-800 hover:bg-neutral-700 rounded grid gap-2 grid-cols-12 grid-rows-1 px-3 py-4 w-full"
+        className="group border border-neutral-200 dark:border-neutral-700 transition bg-neutral-50 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 rounded grid gap-2 grid-cols-12 grid-rows-1 px-3 py-4 w-full"
       >
         <img
           src={project.image}
@@ -64,7 +64,7 @@ export const Project = ({ project }) => {
           <p className="font-bold text-neutral-900 dark:text-neutral-100">
             {project.name}
           </p>
-          <p className="text-sm transition text-white/75 group-hover:text-white">
+          <p className="text-sm transition dark:text-white/75 dark:group-hover:text-white">
             {project.description}
           </p>
         </div>

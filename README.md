@@ -9,6 +9,8 @@
 - Live updating Discord status/activity image
 - Simple JSON files for nav links and projects to make extendibility easy
 - Project page, with handler for non-existant projects
+- Light/Dark mode, automatically updating based on user's device settings
+- Meta tags
 - And more!
 
 ## More Images

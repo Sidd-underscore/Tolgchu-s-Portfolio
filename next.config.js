@@ -8,7 +8,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'lanyard.cnrad.dev',
-        port: '',
+        port: '1452',
         pathname: '**',
       },
     ],

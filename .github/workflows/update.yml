@@ -18,4 +18,5 @@ jobs:
             cd tolgchu
             git pull
             npm install
-            next build
+            npm run build
+            pm2 reload 17

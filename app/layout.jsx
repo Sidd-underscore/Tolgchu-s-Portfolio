@@ -11,23 +11,23 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://tolgchu.vercel.app"),
+  metadataBase: new URL("https://tolgchu.xyz"),
   title: {
-    default: "Tolgchu ✨",
-    template: "%s / Tolgchu ✨",
+    default: "✨Tolgchu✨",
+    template: "%s / ✨Tolgchu✨",
   },
-  description: "A friendly cat programmer 😄",
+  description: "Hey, I'm ✨Tolgchu✨!",
   openGraph: {
-    title: "Tolgchu ✨",
-    description: "A friendly cat programmer 😄",
-    url: "https://tolgchu.vercel.app",
-    siteName: "Tolgchu ✨",
+    title: "✨Tolgchu✨",
+    description: "Hey, I'm ✨Tolgchu✨!",
+    url: "https://tolgchu.xyz",
+    siteName: "✨Tolgchu✨",
     locale: "en-US",
     type: "website",
     image: "/favicon.ico"
   },
   twitter: {
-    title: "Tolgchu ✨",
+    title: "✨Tolgchu✨",
     card: "summary_large_image",
   },
 };

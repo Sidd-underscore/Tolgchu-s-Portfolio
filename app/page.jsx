@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Profile from "./components/profile";
 
 function Badge(props) {
   return (
@@ -11,11 +12,14 @@ function Badge(props) {
 }
 
 export default async function Page() {
+  let host = process.env.HOST ?? 'http://localhost:3401';
+  let presence = await fetch(`${host}/presence`).then((res) => res.json());
+
   return (
     <section>
       <h1 className="text-gray-700 dark:text-white font-bold relative text-2xl md:text-3xl mb-8 tracking-tighter py-4 w-fit">
         <div className="absolute top-0 -left-[25px] w-[calc(100%_+_75px)] h-full bg-gradient-to-br from-pink-500 to-indigo-400 blur-2xl" />
-        <span className="blur-none">Hey, I'm Tolgchu ✨</span>
+        <span className="blur-none">Hey, I'm ✨Tolgchu✨!</span>
       </h1>
 
       <div className="md:grid gap-6 grid-cols-2 grid-rows-1">
@@ -43,36 +47,9 @@ export default async function Page() {
             <img alt="" className="w-[1.25em] h-[1.25em] mr-2" src="/deh.png" />{" "}
             Discord Experiment Hub
           </Badge>{" "}
-          Discord server.
+          project.
         </p>
-        <div>
-          <Image
-            src="https://lanyard.cnrad.dev/api/329671025312923648?animated=true&showDisplayName=true"
-            width={700}
-            height={475}
-            sizes="50vw"
-            className="hidden dark:block w-screen sm:max-w-[75vw]"
-            style={{
-              width: "100%",
-              height: "auto",
-            }}
-            alt="Tolgchu's current status on Discord"
-            priority
-          />
-          <Image
-            src="https://lanyard.cnrad.dev/api/329671025312923648?animated=true&showDisplayName=true&theme=light"
-            width={700}
-            height={475}
-            sizes="50vw"
-            className="dark:hidden block"
-            style={{
-              width: "100%",
-              height: "auto",
-            }}
-            alt="Tolgchu's current status on Discord"
-            priority
-          />
-        </div>
+        <Profile presence={presence} />
       </div>
     </section>
   );

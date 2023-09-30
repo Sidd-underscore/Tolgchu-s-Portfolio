@@ -19,7 +19,7 @@ export default function Profile(data) {
                 </div>
                 <div className="profileInfo">
                     <p className="profileDisplayName">✨Tolgchu✨</p>
-                    <p className="at">@<p className="profileUsername">tolgchu</p></p>
+                    <p className="at">@<span className="profileUsername">tolgchu</span></p>
                     <p className="profilePronouns">he/cat</p>
                     {customStatus ? (
                         <p className="profileCustomStatus">{customStatus.emoji ? (

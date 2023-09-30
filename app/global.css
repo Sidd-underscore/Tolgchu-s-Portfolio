@@ -37,9 +37,9 @@ html {
   min-height: 480px;
   width: 370px;
   margin-left: 30px;
-  border-radius: 8px;
+  border-radius: 12px;
   margin-top: -100px;
-  padding: 6.5px;
+  padding: 5px;
 }
 
 .profileCard {
@@ -61,7 +61,8 @@ html {
   border-radius: 50%;
   margin-top: -55px;
   margin-left: 20px;
-  border: 7.1px solid rgba(0, 0, 0, 0.4);
+  border: 7.1px solid rgb(31, 30, 30);
+  position: relative;
 }
 
 .profileBadges {
@@ -142,15 +143,15 @@ html {
   background-color: #ffffff3d;
   border-radius: 8px;
   margin: 12px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   height: 1.5px;
   position: sticky;
 }
 
 .profileTitle {
   color: #F2F3F5;
-  margin: 6px;
+  margin: 10px;
   font-size: 12px;
   font-family: 'GGsans-Extrabold';
 }
@@ -161,7 +162,7 @@ html {
   font-size: 14px;
   font-family: 'GGsans-Normal';
   margin-top: -5px;
-  margin-left: 7px;
+  margin-left: 10px;
 }
 
 .activityCard {
@@ -170,6 +171,7 @@ html {
   padding: 2px;
   display: inline-block;
   margin-bottom: -180px;
+  margin-left: 10px;
 }
 
 .activityImage {

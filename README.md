@@ -1,6 +1,8 @@
 # My friend Tolgchu's website :)
 
-[tolgchu.vercel.app](https://tolgchu.vercel.app)
+[https://tolgchu.xyz](https://tolgchu.xyz)
+or 
+[https://tolgchu.vercel.app](https://tolgchu.vercel.app)
 
 ![Hero page screenshot](https://raw.githubusercontent.com/Sidd-underscore/tolgchu-redesign/main/public/screenshots/hero.png)
 

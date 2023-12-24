@@ -13,7 +13,7 @@ function Badge(props) {
 
 export default async function Page() {
   let host = process.env.HOST ?? 'http://localhost:3401';
-  let presence = await fetch(`${host}/presence`).then((res) => res.json());
+  let presence = await fetch(`${host}/presence`).then((res) => res.json()).catch(() => {});
 
   return (
     <section>

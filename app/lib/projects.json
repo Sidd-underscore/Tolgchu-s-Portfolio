@@ -10,11 +10,21 @@
     "gradient": "from-indigo-600 to-indigo-400"
   },
   {
-    "name": "PurGPT",
-    "link": "https://purgpt.xyz",
-    "id": "purgpt",
-    "role": "Co-Owner/Developper",
-    "image": "/purgpt.png",
+    "name": "Elysium",
+    "link": "https://discord.gg/zQ9j6eu9gg",
+    "id": "elysium",
+    "role": "Owner",
+    "image": "/elysium.png",
+    "description": "Your favorite virtual human.",
+    "dates": "2023 - Present",
+    "gradient": "from-indigo-600 to-indigo-400"
+  },
+  {
+    "name": "PurLabs",
+    "link": "https://purlabs.xyz",
+    "id": "purlabs",
+    "role": "Developper",
+    "image": "/purlabs.png",
     "description": "Harness AIs from companies like OpenAI effortlessly, with services like embeddings, chat completions, image generation, audio transcription and so, so much more!",
     "dates": "2023 - Present",
     "gradient": "from-purple-700 to-fuchsia-700"
@@ -36,6 +46,16 @@
     "role": "Owner",
     "image": "/logchu.png",
     "description": "A very simple and cool logger for your Node.js projects. Supports JavaScript and TypeScript.",
+    "dates": "2023 - Present",
+    "gradient": "from-green-500 to-sky-600" 
+  },
+  {
+    "name": "Fetchu.js",
+    "link": "https://github.com/Tolga1452/fetchu.js",
+    "id": "logchu",
+    "role": "Owner",
+    "image": "/js.png",
+    "description": "A simple and modern fetch wrapper for Node.js",
     "dates": "2023 - Present",
     "gradient": "from-green-500 to-sky-600" 
   },

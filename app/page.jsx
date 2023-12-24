@@ -24,16 +24,24 @@ export default async function Page() {
 
       <div className="md:grid gap-6 grid-cols-2 grid-rows-1">
         <p className="mb-6 md:mb-0 dark:text-gray-200 leading-loose">
-          I'm a programmer cat interested in AI, who co-owns{" "}
-          <Badge href="https://purgpt.xyz">
+          I'm a programmer cat interested in AI, who owns{" "}
+          <Badge href="https://discord.gg/experiments">
             <img
               alt=""
               className="w-[1.25em] h-[1.25em] mr-2"
-              src="/purgpt.png"
+              src="/deh.png"
             />{" "}
-            PurGPT
+            Discord Experiment Hub
           </Badge>
-          , codes in{" "}
+          {" "}&{" "}
+          <Badge href="https://discord.gg/zQ9j6eu9gg">
+            <img
+              alt=""
+              className="w-[1.25em] h-[1.25em] mr-2"
+              src="/elysium.png"
+            />{" "}
+            Elysium
+          </Badge>{" "}projects and codes in{" "}
           <Badge href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
             <img
               alt=""
@@ -41,16 +49,11 @@ export default async function Page() {
               src="/js.png"
             />{" "}
             JavaScript
-          </Badge>{" "}
-          and owns the{" "}
-          <Badge href="https://discord.gg/experiments">
-            <img alt="" className="w-[1.25em] h-[1.25em] mr-2" src="/deh.png" />{" "}
-            Discord Experiment Hub
-          </Badge>{" "}
-          project.
+          </Badge>.
         </p>
-        <Profile presence={presence} />
       </div>
     </section>
   );
 }
+
+// <Profile presence={presence} />

@@ -7,18 +7,23 @@ export const socialLinks = [
         "icon": <Github />
     },
     {
-        "name": "@discordexhub",
-        "link": "https://x.com/discordexphub",
-        "icon": <Twitter />
-    },
-    {
         "name": "@tolgchu",
         "link": "https://x.com/tolgchu",
         "icon": <Twitter />
     },
     {
+        "name": "@discordmooments",
+        "link": "https://x.com/discordmooments",
+        "icon": <Twitter />
+    },
+    {
         "name": "Tolgchu",
         "link": "https://www.instagram.com/tolgchu",
+        "icon": <Instagram />
+    },
+    {
+        "name": "Tolgchu",
+        "link": "https://www.instagram.com/tolgchu.kedy",
         "icon": <Instagram />
     },
     {

@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Navbar from "./components/navbar.jsx";
 import Footer from "./components/footer.jsx";
 import { Analytics } from "@vercel/analytics/react";
+import 'dotenv/config'
 
 const inter = Inter({
   subsets: ["latin"],

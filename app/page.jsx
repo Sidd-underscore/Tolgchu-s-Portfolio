@@ -1,5 +1,7 @@
-import Image from "next/image";
+"use client"
+
 import Profile from "./components/profile";
+import { useEffect } from "react";
 
 function Badge(props) {
   return (
@@ -11,9 +13,13 @@ function Badge(props) {
   );
 }
 
-export default async function Page() {
-  let host = process.env.HOST ?? 'http://localhost:3401';
-  let presence = await fetch(`${host}/presence`).then((res) => res.json()).catch(() => {});
+export default function Page() {
+  let host = process.env.PRESENCE_HOST;
+  let presence;
+
+  useEffect(() => {
+    presence = fetch(`${host}/presence`).then((res) => res.json()).catch(() => {});
+  })
 
   return (
     <section>
@@ -52,8 +58,9 @@ export default async function Page() {
           </Badge>.
         </p>
       </div>
+      {presence &&<Profile presence={presence} />}
     </section>
   );
 }
 
-// <Profile presence={presence} />
+// 
